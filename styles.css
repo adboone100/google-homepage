@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 65px 65px 1fr 65px 85px 65px 80px;
+    grid-column-gap: 10px;
+    align-items: center; 
+    grid-template-rows: 75px;
+    padding: 0px 18px;
+
+}
+
+.nav div{
+    #border: #333 1px solid;
+    place-self: center;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black; 
+}
+
+.account{
+    border-radius: 50%
+}
+     
