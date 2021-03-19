@@ -5,7 +5,7 @@
     font-size: 18px;
 }
 
-.header{
+.nav{
     display: grid;
     grid-template-columns: 65px 65px 1fr 65px 85px 65px 80px;
     grid-column-gap: 10px;
@@ -13,17 +13,17 @@
     margin: 0px 18px;
 }
 
-.header div{
+.nav div{
     place-self: center;
 }
 
-.header a{
+.nav a{
     text-decoration: none;
     font-size: 18px;
     color: black; 
 }
 
-.header a:hover{
+.nav a:hover{
     text-decoration: underline black;
 }
 
@@ -137,6 +137,9 @@
     vertical-align: middle;
 }
 
+.footer div:hover{
+    text-decoration: underline;
+}
 
 .footer img{
     vertical-align: middle;
